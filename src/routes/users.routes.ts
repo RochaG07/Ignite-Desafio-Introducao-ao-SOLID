@@ -5,6 +5,7 @@ import { listAllUsersController } from "../modules/users/useCases/listAllUsers";
 import { showUserProfileController } from "../modules/users/useCases/showUserProfile";
 import { turnUserAdminController } from "../modules/users/useCases/turnUserAdmin";
 
+
 const usersRoutes = Router();
 
 usersRoutes.post("/", (request, response) =>
